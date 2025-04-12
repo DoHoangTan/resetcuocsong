@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="vi">
-<head>
-  <meta charset="UTF-8">
+$1
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/929/929564.png" type="image/png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>21 Ngày Reset Cuộc Sống</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
@@ -125,7 +125,23 @@
   </section>
 
   <section>
-    <h2>Góp ý và đánh giá hành trình</h2>
+    <h2>Bạn muốn bắt đầu hành trình nào?</h2>
+    <form onsubmit="return handleRedirect(this);">
+      <label><input type="radio" name="resetOption" value="reset-3ngay.html" required> 3 Ngày – Khởi động nhẹ</label><br/>
+      <label><input type="radio" name="resetOption" value="reset-7ngay.html"> 7 Ngày – Thiết lập lại nhịp sống</label><br/>
+      <label><input type="radio" name="resetOption" value="reset-21ngay.html"> 21 Ngày – Thay đổi toàn diện</label><br/><br/>
+      <button type="submit" class="btn">Bắt đầu ngay</button>
+    </form>
+    <script>
+      function handleRedirect(form) {
+        const selected = form.resetOption.value;
+        window.location.href = selected;
+        return false;
+      }
+    </script>
+  </section>
+
+$1</h2>
     <p>Hãy chia sẻ cảm nhận của bạn sau khi trải nghiệm Reset Cuộc Sống để chúng tôi có thể cải tiến và hỗ trợ bạn tốt hơn.</p>
     <div class="link-block">
       <strong>Biểu mẫu phản hồi</strong>
@@ -134,20 +150,20 @@
   </section>
 
   <section>
-    <h2>Tổng hợp công cụ Reset theo mức độ sẵn sàng</h2>
+<h2>Tổng hợp công cụ Reset theo mức độ sẵn sàng</h2>
     <div class="link-block">
       <strong>1. 3 Ngày Reset Cuộc Sống</strong>
-      <a href="reset-3ngay.html" target="_blank">Xem hướng dẫn 3 Ngày Reset</a>
+      <a href="reset-3ngay.html" target="_blank">Xem trang 3 Ngày Reset</a>
       <a href="https://docs.google.com/document/d/1UyrUfEcRwJ5O6TgSAb4uyl_fYOq7VMbieyjDOTV5NFY/edit?usp=sharing" target="_blank">Tải công cụ 3 ngày (Google Docs)</a>
     </div>
     <div class="link-block">
       <strong>2. 7 Ngày Reset Cuộc Sống</strong>
-      <a href="reset-7ngay.html" target="_blank">Xem hướng dẫn 7 Ngày Reset</a>
+      <a href="reset-7ngay.html" target="_blank">Xem trang 7 Ngày Reset</a>
       <a href="https://docs.google.com/document/d/1tsZf5dWVPVvxMOL35iWGn-Pk7KI4uRZRNEoz0X5W03k/edit?usp=sharing" target="_blank">Tải công cụ 7 ngày (Google Docs)</a>
     </div>
     <div class="link-block">
       <strong>3. 21 Ngày Reset Cuộc Sống</strong>
-      <a href="reset-21ngay.html" target="_blank">Xem hướng dẫn 21 Ngày Reset</a>
+      <a href="reset-21ngay.html" target="_blank">Xem trang 21 Ngày Reset</a>
       <a href="https://docs.google.com/document/d/1QCPOvPBX6rK67r7VC1C91x8_Lsmj-RWZ2OGNLAxs9kI/edit?usp=sharing" target="_blank">Tải công cụ 21 ngày (Google Docs)</a>
     </div>
     <div class="link-block">
